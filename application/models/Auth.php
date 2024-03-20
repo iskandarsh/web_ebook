@@ -7,14 +7,13 @@ class Auth extends CI_Model
         parent::__construct();
 	}
 
-	function register($username,$password,$nama,$email,$no_hp)
+	function register($username,$password,$nama)
 	{
 		$data_user = array(
 			'username'=>$username,
 			'password'=>md5($password),
 			'nama'=>$nama,
-            'email'=>$email,
-            'no_hp'=>$no_hp,
+
 
             'status' => 1
 		);

@@ -15,8 +15,16 @@
 	<body>
 	
 	<section class="ftco-section">
+		<?php if($this->session->flashdata('error') !='')
+				{
+					echo '<div class="alert alert-danger" role="alert">';
+					echo $this->session->flashdata('error');
+					echo '</div>';
+				}
+				?>
 		<div class="container">
 	
+		
 			<div class="row justify-content-center">
 				<div class="col-md-12 col-lg-10">
 					<div class="wrap d-md-flex">
@@ -29,18 +37,18 @@
 			      		</div>
 								
 			      	</div>
-							<form action="#" class="signin-form">
+							<form  method="post" action="<?php echo base_url(); ?>register/proses" class="signin-form">
 			      		<div class="form-group mb-3">
 			      			<label class="label" for="name">Username</label>
-			      			<input type="text" class="form-control" placeholder="Username" required>
+			      			<input type="text" class="form-control" name="username" id="username" placeholder="Username" required>
 			      		</div>
 						  <div class="form-group mb-3">
 							<label class="label" for="password">Nama Lengkap</label>
-						  <input type="text" class="form-control" placeholder="Nama Lengkap" required>
+						  <input type="text" class="form-control" name="nama" id="nama"  placeholder="Nama Lengkap" required>
 						</div>
 						<div class="form-group mb-3">
 							<label class="label" for="password">Password</label>
-						<input type="password" class="form-control" placeholder="Password" required>
+						<input type="password" class="form-control" name="password" id="password" p placeholder="Password" required>
 						</div>
 
 		            <div class="form-group">

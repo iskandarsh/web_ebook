@@ -26,7 +26,7 @@
         }
     </style>
 </head>
-<body>
+<body class = "bg-body">
 <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-light shadow" style="z-index: 100;">
         <div class="container">
@@ -50,7 +50,7 @@
 
     <?= $isi_conten ?>
 
-    <footer>
+    <footer class=" bg-light shadow">
         <div class="container">
             <div class="row">
                 <div class="col text-center" style="margin-top: 20px;">
@@ -65,6 +65,8 @@
             </div>
         </div>
     </footer>
+
+
 
 
     <!-- Bootstrap JS CDN -->
