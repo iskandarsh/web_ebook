@@ -1,4 +1,6 @@
 <main class="container mt-5">
-    <h1>TES</h1>
-    <p>Tes</p>
+    <center>
+        <h1><b>SELAMAT DATANG !</b></h1>
+        <p>Yuk, pilih menu dibawah ini !</p>
+    </center>
 </main>
