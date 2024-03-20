@@ -6,6 +6,7 @@ class Template {
 
     public function load($data = array()) {
 
+        
         $CI = &get_instance();
         $halaman = $data['halaman'];
         $data['isi_conten'] = $CI->load->view($halaman, $data, true);

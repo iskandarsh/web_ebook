@@ -38,7 +38,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class=" btn btn-danger px-3" href="#" style="color: white;">Logout</a>
+                        <a class=" btn btn-danger px-3" href="<?php echo base_url(); ?>login/logout" style="color: white;">Logout</a>
                     </li>
                 </ul>
             </div>
@@ -53,12 +53,19 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col">
+                <div class="col text-center" style="margin-top: 20px;">
+                    <img src="<?= base_url().'assets/images/foot-1.png'; ?>" alt="Logo Kiri" style="max-width: 100px;">
+                </div>
+                <div class="col text-center" style="margin-top: 20px;">
                     © 2024 YourWebsite.com
+                </div>
+                <div class="col text-center">
+                    <img src="<?= base_url().'assets/images/foot-2.png'; ?>" alt="Logo Kiri" style="max-width: 100px;">
                 </div>
             </div>
         </div>
     </footer>
+
 
     <!-- Bootstrap JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

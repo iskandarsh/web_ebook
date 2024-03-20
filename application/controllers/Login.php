@@ -19,6 +19,12 @@ class Login extends CI_Controller {
 		
 	}
 
+    public function logout()
+    {
+        $this->session->unset_userdata('username');
+        redirect('login');
+    }
+
 	public function proses()
     {
         

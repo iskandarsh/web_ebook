@@ -12,13 +12,18 @@ class Home extends CI_Controller {
 	public function index()
 	{
 	
-		$param = array(
-			'halaman' => $this->link_ci,
-			'title' => 'Home',
+        if ($this->session->has_userdata('username')) {
+			$param = array(
+				'halaman' => $this->link_ci,
+				'title' => 'Home',
+		
+			);
 	
-		);
-
-        $this->template->load($param);
+			$this->template->load($param);
+        } else {
+            $this->load->view('login');
+        }
+	
 	}
 
 
