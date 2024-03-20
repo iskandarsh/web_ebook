@@ -17,6 +17,24 @@
 	<section class="ftco-section">
 		<div class="container">
 	
+		<?php 
+				if($this->session->flashdata('error') !='')
+				{
+					echo '<div class="alert alert-danger" role="alert">';
+					echo $this->session->flashdata('error');
+					echo '</div>';
+				}
+				?>
+
+				<?php 
+				if($this->session->flashdata('success_register') !='')
+				{
+					echo '<div class="alert alert-info" role="alert">';
+					echo $this->session->flashdata('success_register');
+					echo '</div>';
+				}
+				?>
+				
 			<div class="row justify-content-center">
 				<div class="col-md-12 col-lg-10">
 					<div class="wrap d-md-flex">
@@ -29,14 +47,14 @@
 			      		</div>
 								
 			      	</div>
-							<form action="#" class="signin-form">
+					<form action="<?php echo base_url(); ?>login/proses"  method="post"  class="signin-form">
 			      		<div class="form-group mb-3">
 			      			<label class="label" for="name">Username</label>
-			      			<input type="text" class="form-control" placeholder="Username" required>
+			      			<input type="text" class="form-control" placeholder="Username" name="username" id="username" required>
 			      		</div>
 		            <div class="form-group mb-3">
 		            	<label class="label" for="password">Password</label>
-		              <input type="password" class="form-control" placeholder="Password" required>
+		              <input type="password" class="form-control" placeholder="Password" name="password" id="password" required>
 		            </div>
 		            <div class="form-group">
 		            	<button type="submit" class="form-control btn btn-primary rounded submit px-3">Sign In</button>
@@ -45,6 +63,7 @@
 		          </form>
 		          <p class="text-center">Not a member? <a data-toggle="tab" href="<?= base_url().'register' ?>">Sign Up</a></p>
 		        </div>
+				
 		      </div>
 				</div>
 			</div>
