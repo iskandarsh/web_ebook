@@ -10,15 +10,24 @@ class Login extends CI_Controller {
 	}
 	public function index()
 	{
-		$this->load->view('login');
+      
+        if ($this->session->has_userdata('username')) {
+            redirect('home');
+        } else {
+            $this->load->view('login');
+        }
+		
 	}
 
 	public function proses()
     {
+        
+
         $username = $this->input->post('username');
         $password = $this->input->post('password');
       
         if ($this->auth->login_user($username, $password)) {
+            $this->session->set_userdata('username',$username);
             redirect('home');
         } else {
             $this->session->set_flashdata('error', 'Username & Password salah');

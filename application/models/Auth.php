@@ -29,10 +29,7 @@ class Auth extends CI_Model
            
             $data_user = $query->row();
             if (md5($password) == $data_user->PASSWORD) {
-                $this->session->set_userdata('username',$USERNAME);
-				$this->session->set_userdata('nama',$data_user->NAMA);
-                $this->session->set_userdata('id_user',$data_user->ID_USER);
-				$this->session->set_userdata('is_login',TRUE);
+    
                 return TRUE;
             } else {
                
