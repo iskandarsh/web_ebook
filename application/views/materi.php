@@ -29,9 +29,18 @@
                                 </div>
                                 <div class="col-lg-10 body-text">
                                     <h4>KERJA SAMA DI LINGKUNGANMU</h4>
+                                    <h5>"Pancasila adalah pandangan hidup bangsa Indonesia.
+                                        Tahukah kamu bahwa gotong royong merupakan bentuk perwujudan dari Pancasila?"</h5> <br><br>
+                                </div>
+                                <div class="col-lg-12 body-text">
+                                <br>
+                                <h5>Setiap sila yang ada di dalam Pancasila dibentuk dari nilai-nilai yang terdapat dalam budaya bangsa 
+                                        Indonesia. Sila-sila dalam Pancasila mulai dari sila pertama hingga sila kelima mengandung sikap gotong royong. 
+                                        Gotong royong merupakan nilai Pancasila dalam bingkai persatuan dan kesatuan. Nilai persatuan tersebut didasarkan pada 
+                                        nilai ketuhanan dan kemanusiaan yang menekankan pada kesejahteraan bersama berdasarkan sikap gotong royong.</h5>    
+                            
                                 </div>
                             </div>
-
                         </div>
                     </div>
             </div>
