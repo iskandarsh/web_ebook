@@ -38,7 +38,16 @@
                                         Indonesia. Sila-sila dalam Pancasila mulai dari sila pertama hingga sila kelima mengandung sikap gotong royong. 
                                         Gotong royong merupakan nilai Pancasila dalam bingkai persatuan dan kesatuan. Nilai persatuan tersebut didasarkan pada 
                                         nilai ketuhanan dan kemanusiaan yang menekankan pada kesejahteraan bersama berdasarkan sikap gotong royong.</h5>    
-                            
+                                <br>
+                                <h4> AYO MEMBACA</h4>  
+                                <center>
+                                <div class="col-12 col-md-6">
+                                    <img src="<?= base_url().'assets/images/konten-materi-1.jpeg'; ?>" alt="Menu 1" class="img-fluid">
+                                </div>  </center>  <br><br><br>
+                                <h5>Apakah kamu pernah ikut kerja bakti di sekitar rumahmu? Secara sederhana, gotong royong dilakukan dalam bentuk kegiatan kerja bakti. 
+                                    Misalnya, membangun rumah atau jembatan, membersihkan lingkungan, mempersiapkan perayaan hari besar keagamaan atau ritual adat 
+                                    kepercayaan, peringatan hari kemerdekaan, dan sebagainya. Gotong royong banyak sekali manfaatnya, di antaranya dapat memperingan
+                                    dan mempercepat pekerjaan, menjalin kerukunan hidup masyarakat, dan mempererat rasa persaudaraan.</h5>
                                 </div>
                             </div>
                         </div>
