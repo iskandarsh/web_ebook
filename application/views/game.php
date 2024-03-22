@@ -37,5 +37,5 @@
         <img src="<?= base_url().'assets/images/boy.png'; ?>" class="img-fluid position-absolute" style="right: 0; width: min-content; bottom: -10rem; z-index: -1;" alt="Boy">
   
     </center>
-    <img src="<?php echo base_url(); ?>" alt="Corner Image" class="corner-image">
+  
 </main>
