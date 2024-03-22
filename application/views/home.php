@@ -10,7 +10,7 @@
             <!-- yang fix -->
             <div class="col-sm-6 col-md-6 col-lg-4 pt-5">
                 <a href="<?= base_url().'tentang' ?>">
-                    <div class="card text-center shadow border-0">
+                    <div class="card text-center shadow-sm border-0">
                         <div class="card-header d-flex align-items-center justify-content-center border-0 box-title" >
                             <h4>Tentang E-Book</h4>
                         </div>
