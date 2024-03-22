@@ -46,6 +46,12 @@
             text-align: left; 
         }
 
+        .btn{
+            width: 9rem;
+            background-color: #F36767;
+            border-color: #F36767;
+        }
+
 
         footer {
             background-color: #f8f9fa;
@@ -67,7 +73,7 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class=" btn btn-danger px-3" href="<?php echo base_url(); ?>login/logout" style="color: white;">Logout</a>
+                        <a class=" btn btn-danger" href="<?php echo base_url(); ?>login/logout" style="color: white;">Logout</a>
                     </li>
                 </ul>
             </div>
@@ -85,7 +91,7 @@
                     <img src="<?= base_url().'assets/images/foot-1.png'; ?>" alt="Logo Kiri" style="max-width: 100px;">
                 </div>
                 <div class="col text-center" style="margin-top: 20px;">
-                    © 2024 YourWebsite.com
+                    © 2024 PGSD UMM
                 </div>
                 <div class="col text-center">
                     <img src="<?= base_url().'assets/images/foot-2.png'; ?>" alt="Logo Kiri" style="max-width: 100px;">

@@ -1,6 +1,6 @@
 <main class="container container-utama">
     
-<a class="btn btn-outline-secondary px-3" href="<?php echo base_url(); ?>home" style="color: white; background-color: #6c757d; border-color: #6c757d;">Back</a>
+<a class="btn btn-outline-secondary px-3" href="<?php echo base_url(); ?>home" style="color: white; background-color: #C6BEBE; border-color: #C6BEBE;">Back</a>
 
 
     <center>
