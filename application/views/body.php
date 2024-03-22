@@ -18,6 +18,26 @@
             flex: 1;
         }
 
+        a {
+            text-decoration: none;
+        }
+
+        .box-title{
+            height:70px; 
+            text-align: center; 
+            font-size:x-large; 
+            font-weight:bold;
+            z-index: 1;
+            box-shadow: -1.17px 2.33px 4.1px rgba(0, 0, 0, 0.2);
+            background-color: #FFCD6B;
+        }
+
+        .box-body{
+            padding: 30px 10px;
+            background-color: #FFE0A4;
+        }
+
+
         footer {
             background-color: #f8f9fa;
             padding: 20px 0;
