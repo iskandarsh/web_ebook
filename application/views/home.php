@@ -15,9 +15,20 @@
             </div>
             <div class="col-md-4 pt-5">
                 <a href="<?= base_url().'petunjuk' ?>">
-                    <div class="card">
+                    <!-- <div class="card">
                         <img  src="<?= base_url().'assets/images/Menu(1).png'; ?>"  class="card-img-top" alt="Image 2">
+                    </div> -->
+                    <div class="card text-center">
+                        <div class="card-header" style="height:62px; text-align: center; font-size:x-large; font-weight:bold">
+                            <h4>Featured</h4>
+                        </div>
+                        <div class="card-body">
+                            <img  src="<?= base_url().'assets/images/icons/user-guide.png'; ?>"  class="card-img-top" style="width:148px; height:148px" alt="Menu 2">
+
+                        </div>
                     </div>
+
+
                 </a>  
             </div>
             <div class="col-md-4 pt-5">
