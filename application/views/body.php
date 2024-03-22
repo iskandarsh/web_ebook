@@ -22,6 +22,11 @@
             text-decoration: none;
         }
 
+        .container-utama{
+            margin-top: 6rem;
+            margin-bottom: 7rem;
+        }
+
         .box-title{
             height:70px; 
             text-align: center; 
@@ -37,6 +42,10 @@
             background-color: #FFE0A4;
         }
 
+        .content-box{
+            text-align: left; 
+        }
+
 
         footer {
             background-color: #f8f9fa;
@@ -47,8 +56,8 @@
     </style>
 </head>
 <body class = "bg-body">
-<header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow" style="z-index: 100;">
+<header >
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top" style="z-index: 100;">
         <div class="container">
             <a class="navbar-brand" href="#"><strong>E-BOOK KEBERAGAMAN SOSIAL DAN BUDAYA</strong></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,10 +76,9 @@
 </header>
 
 
-
     <?= $isi_conten ?>
 
-    <footer class=" bg-light shadow">
+    <footer class=" bg-light shadow fixed-bottom">
         <div class="container">
             <div class="row">
                 <div class="col text-center" style="margin-top: 20px;">

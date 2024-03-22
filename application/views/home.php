@@ -1,10 +1,10 @@
-<main class="container mt-5">
+<main class="container container-utama">
     <center>
         <h1><b>SELAMAT DATANG !</b></h1>
         <p>Yuk, pilih menu dibawah ini !</p>
     </center>
     
-    <div class="container">
+    <div class="container" style="text-align: center">
         <div class="row">
             
             <!-- yang fix -->
@@ -84,7 +84,7 @@
                     </div>
                 </a>  
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-4 pt-5 pb-5 offset-md-4">
+            <div class="col-sm-6 col-md-6 col-lg-4 pt-5 pb-5 mb-10 offset-md-4">
                 <a href="<?= base_url().'profil' ?>">
                     <div class="card text-center shadow border-0">
                         <div class="card-header d-flex align-items-center justify-content-center border-0 box-title" >
@@ -100,7 +100,30 @@
                 </a>  
             </div>
         </div>
+        <div class="row">
+        
+        <!-- <img  src="<?= base_url().'assets/images/boy.png'; ?>"  class="card-img-top" style="position: relative;
+    bottom: 13vh;
+    left: 67vh;
+    width: min-content;
+    z-index: -1;" alt="Boy">
+        </div>
+ -->
+
+ 
+        <!-- <div class="row justify-content-center mt-5">
+            <div class="col-lg-12">
+                <img src="<?= base_url().'assets/images/boy.png'; ?>" class="img-fluid" alt="Boy">
+            </div>
+        </div> -->
+
+        
+        <img src="<?= base_url().'assets/images/boy.png'; ?>" class="img-fluid position-absolute" style="right: 0; width: min-content; bottom: -32rem; z-index: -1;" alt="Boy">
+  
+
     </div>
+
+
 
 
 </main>
