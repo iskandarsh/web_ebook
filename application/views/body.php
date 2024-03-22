@@ -52,6 +52,10 @@
             border-color: #F36767;
         }
 
+        
+        .page {
+            display: none;
+        }
 
         footer {
             background-color: #f8f9fa;
@@ -102,6 +106,52 @@
 
 
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+             let currentPage = 1;
+            const totalPages = $('.paragraphs .page').length;
+
+            // Show initial page
+            showPage(currentPage);
+
+            // Show next page
+            $('.next-btn').on('click', function() {
+                if (currentPage < totalPages) {
+                    currentPage++;
+                    showPage(currentPage);
+                }
+            });
+
+            // Show previous page
+            $('.prev-btn').on('click', function() {
+                if (currentPage > 1) {
+                    currentPage--;
+                    showPage(currentPage);
+                }
+            });
+
+            // Function to show specific page
+            function showPage(pageNumber) {
+                const pages = $('.paragraphs .page');
+                pages.hide();
+                $('.paragraphs .page-' + pageNumber).show();
+                
+                // Hide/show next and previous buttons based on current page
+                if (pageNumber === 1) {
+                    $('.prev-btn').hide();
+                } else {
+                    $('.prev-btn').show();
+                }
+                
+                if (pageNumber === totalPages) {
+                    $('.next-btn').hide();
+                } else {
+                    $('.next-btn').show();
+                }
+            }
+        });
+    </script>
 
     <!-- Bootstrap JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

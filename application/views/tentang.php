@@ -20,7 +20,7 @@
             <div class="col-sm-6 col-md-6 col-lg-12 content-box text-left mt-4">
                     <div class="card text-center shadow-sm border-0">
                         <div class="card-header d-flex align-items-center justify-content-left border-0 box-title" >
-                            <h4>Tentang E-Book</h4>
+                            <h4>Profile Pembuat Buku</h4>
                         </div>
                         <div class="card-body box-body" >
                             <div class="row">
