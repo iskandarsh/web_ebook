@@ -13,9 +13,7 @@
 </style>
 <main class="container container-utama">
     
-<a class="btn btn-outline-secondary px-3" href="<?php echo base_url(); ?>home" style="color: white; background-color: #6c757d; border-color: #6c757d;">Back</a>
-
-
+<a class="btn btn-outline-secondary px-3" href="<?php echo base_url(); ?>home" style="color: white; background-color: #C6BEBE; border-color: #C6BEBE;">Back</a>
     <center>
             <div class="col-sm-6 col-md-6 col-lg-12 content-box text-left mt-4">
                     <div class="card text-center shadow-sm border-0">
